@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(tp3-bottin-CollectorsObservatory)
+project(Hash-Table-Implementation)
 
 set(CMAKE_CXX_STANDARD 20)
 include(FetchContent)
@@ -15,7 +15,7 @@ FetchContent_MakeAvailable(googletest)
 
 include_directories(${CMAKE_SOURCE_DIR})
 
-add_executable(tp3-bottin-CollectorsObservatory
+add_executable(Hash-Table-Implementation
 
         main.cpp
         Bottin.cpp
